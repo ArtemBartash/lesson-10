@@ -1,0 +1,38 @@
+@import'./config/normalize';
+@import 'config/media';
+@import 'config/mixins';
+@import 'config/variable';
+@import 'components/aside';
+@import 'components/footer';
+@import 'components/header';
+@import 'components/main';
+@import 'components/nav';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    width: 95%;
+    max-width: 1400px;
+    background-color: #EAEAEA;
+    margin: 0 auto;
+    padding-bottom: 0;
+    font-family: 'Lato', sans-serif;
+    }
+    .course {   
+    font-size: 12px;
+    font-weight: 700;
+    color: #bfbfbf;
+    }
+    
+    .info{
+    display: flex;
+    flex-direction: column;
+    }
+    .info__main{
+    display: flex;
+    }

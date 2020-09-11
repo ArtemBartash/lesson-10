@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*переменная*/
+.class {
+  font-size: 1px;
+}
+
+.about {
+  /*вложенность*/
+  width: 90%;
+  color: tomato;
+}
+
+.about button {
+  font-size: 15px;
+  padding: 12px;
+}
+
+.about h2 {
+  font-size: 45px;
+  color: #F5F5F5;
+}
+
+.about div {
+  opacity: .2;
+}
+
+.about div button {
+  font-size: 13px;
+  padding: 2em;
+}
+
+.about div button a {
+  font-size: 13px;
+  list-style-type: none;
+}
+
+.nav__logo {
+  font-size: 14px;
+}
+
+.nav__title {
+  font-size: 15px;
+}
+
+.nav__link {
+  font-size: 16px;
+}
+/*# sourceMappingURL=style.css.map */
